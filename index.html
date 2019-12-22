@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400i,700&display=swap&subset=cyrillic-ext"
+      rel="stylesheet"
+    />
+    <title>Tattoo</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="header__nav">
+          <a href="index.html" class="header__logo">
+            <img src="img/logo.png" alt="ligo" />
+            <span>Tattoo</span>
+          </a>
+
+          <div class="header__menu" id="header__menu">
+            <a
+              href="javascript://0"
+              class="menu__item"
+              onclick="slowScroll('#master')"
+              >Мастер</a
+            >
+
+            <a
+              href="javascript://0"
+              class="menu__item"
+              onclick="slowScroll('#work')"
+              >Работы</a
+            >
+
+            <a
+              href="javascript://0"
+              class="menu__item"
+              onclick="slowScroll('#video')"
+              >Видео</a
+            >
+
+            <a
+              href="javascript://0"
+              class="menu__item"
+              onclick="slowScroll('#contacts')"
+              >Контакты</a
+            >
+          </div>
+          <div class="burger" id="burger">
+            <div class="borger__menu">
+              <span></span>
+            </div>
+          </div>
+        </nav>
+        <!-- NAV -->
+      </div>
+      <!-- CONTAINER -->
+    </header>
+    <!-- HEADER -->
+    <section class="intro">
+      <div class="container">
+        <div class="intro__inner">
+          <div class="intro__img">
+            <img src="img/intro__img.jpg" alt="intro img" />
+          </div>
+          <div class="intro__title">
+            <h1>Золотой иглой пишу на теле руны…</h1>
+          </div>
+        </div>
+        <!-- INTRO INNER -->
+      </div>
+      <!-- CONTEINER -->
+    </section>
+    <!-- INTRO -->
+    <div class="master" id="master">
+      <div class="container">
+        <div class="title">
+          <h2>Мастер</h2>
+        </div>
+        <div class="master__inner">
+          <div class="master__text">
+            Татуировки очень многому учат. Как минимум - быть ответственным за
+            свои решения целиком и полностью, и с этим решением в любом случае
+            придется иметь дело. Это полностью твой выбор.
+          </div>
+          <div class="master__foto">
+            <img src="img/master.jpg" alt="master foto" />
+          </div>
+        </div>
+      </div>
+      <!-- CONTAINER -->
+    </div>
+    <!-- MASTER -->
+    <section class="work" id="work">
+      <div class="title">
+        <h2>работы</h2>
+      </div>
+      <div class="work__item">
+        <img src="img/tattoo/1.jpg" alt="work foto" />
+        <img src="img/tattoo/2.jpg" alt="work foto" />
+        <img src="img/tattoo/3.jpg" alt="work foto" />
+        <img src="img/tattoo/4.jpg" alt="work foto" />
+        <img src="img/tattoo/5.jpg" alt="work foto" />
+        <img src="img/tattoo/6.jpg" alt="work foto" />
+        <img src="img/tattoo/7.jpg" alt="work foto" />
+        <img src="img/tattoo/8.jpg" alt="work foto" />
+      </div>
+    </section>
+    <!-- WORK -->
+    <section class="video" id="video">
+      <div class="container">
+        <div class="title">
+          <h2>Видео</h2>
+        </div>
+        <div class="video__inner">
+          <div class="video__item"></div>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/3dofZUmHudM"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <div class="video__text">
+            Искусство — единственная серьезная вещь в мире, но художник —
+            единственный человек в мире, никогда не бывающий серьезным.
+          </div>
+        </div>
+      </div>
+      <!-- CONTAINER -->
+    </section>
+    <!-- VIDEO -->
+    <section class="contakts" id="contacts">
+      <div class="contakts__map">
+        <a href="#"><img src="img/marker.png" alt="marker"/></a>
+      </div>
+      <div class="contakt__inner">
+        <div class="container">
+          <div class="contakt__item">
+            <a href="#">
+              <img src="img/phone.png" alt="phone" />
+              <span class="contakr__text">+380950253012</span>
+            </a>
+            <a href="#">
+              <img src="img/viber.png" alt="phone" />
+              <span class="contakr__text">Viber</span>
+            </a>
+            <a href="#">
+              <img src="img/telegram.png" alt="phone" />
+              <span class="contakr__text">Telegram</span>
+            </a>
+          </div>
+        </div>
+        <!-- CONTAINER -->
+      </div>
+    </section>
+    <!-- CONTAKTS -->
+    <footer class="footer">
+      <img src="img/footer__img.jpg" alt="foto master" />
+      <p>
+        Вы сами можете изменить свою жизнь. <br />
+        Все в ваших руках. <br />
+        Ждем вас!!!
+      </p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
