@@ -272,7 +272,8 @@ line-height: 20px;
 ============================== */
 .contakts__map iframe {
   width: 100%;
-  height: 200px;
+  height: 220px;
+  margin-bottom: -4px;
 }
 .contakt__inner {
   background-color: #000000;
