@@ -83,21 +83,26 @@ h6 {
   margin: 0 20px;
 }
 .header__logo {
+  
   display: flex;
   align-items: center;
-
-  font-size: 40px;
+line-height: 20px;
+  font-size: 20px;
   color: #ffffff;
   transition: ease 0.5s all;
 }
 .header__logo img {
-  width: 45px;
-  height: 45px;
+  width: 40px;
+  height: 40px;
   background: #ffffff;
+  border-radius: 50%;
   transition: ease 0.5s all;
 }
+.header__logo span {
+  margin-left: 5px;
+}
 .header__logo:hover {
-  font-size: 45px;
+  
   color: gray;
 }
 
@@ -160,6 +165,7 @@ h6 {
   font-size: 40px;
   font-weight: 400;
   font-style: italic;
+  cursor: default;
 }
 /* MASTER
 ============================== */
@@ -184,6 +190,7 @@ h6 {
   padding: 10px 30px;
   font-weight: 400;
   font-style: italic;
+  cursor: default;
 }
 .master__foto img {
   margin-top: 20px;
@@ -201,6 +208,7 @@ h6 {
   display: flex;
   justify-content: center;
   text-align: center;
+  cursor: default;
 }
 .title h2 {
   font-size: 40px;
@@ -257,6 +265,7 @@ h6 {
   margin: 0 20px;
   font-weight: 400;
   font-style: italic;
+  cursor: default;
 }
 
 /* CONTAKTS
@@ -315,6 +324,7 @@ h6 {
   padding: 0 40px;
   font-weight: 400;
   font-style: italic;
+  cursor: default;
 }
 
 /* MMEDIA
@@ -335,11 +345,16 @@ h6 {
   .master__text {
     width: 450px;
   }
+  .header__logo span {
+    font-size: 15px;
+    line-height: 15px;
+  }
 }
 @media (max-width: 768px) {
   .menu__item {
     margin-left: 10px;
   }
+  
 }
 @media (max-width: 640px) {
   .header__menu {
