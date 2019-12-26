@@ -269,23 +269,25 @@ h6 {
   cursor: default;
 }
 
-/* CONTAKTS
+/* contacts
 ============================== */
-.contakt__inner {
+.contacts {
   background-color: #000000;
+}
+.contacts__inner {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
 }
-.contakt__inner img {
+.contacts__inner img {
   width: 250px;
   height: 250px;
   border: gray 4px solid;
   border-radius: 50px 50px;
   margin: 20px 0;
 }
-.contakt__inner p {
+.contacts__inner p {
   text-align: center;
   color: gray;
   font-size: 30px;
